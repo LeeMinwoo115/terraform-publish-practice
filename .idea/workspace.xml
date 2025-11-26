@@ -53,7 +53,7 @@
       <updated>1764121769130</updated>
       <workItem from="1764121770308" duration="54000" />
       <workItem from="1764123048541" duration="542000" />
-      <workItem from="1764126303030" duration="3670000" />
+      <workItem from="1764126303030" duration="3953000" />
     </task>
     <task id="LOCAL-00001" summary="chore: add config and base code">
       <option name="closed" value="true" />
@@ -103,7 +103,15 @@
       <option name="project" value="LOCAL" />
       <updated>1764131788707</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="fix: init GITHUB_SECRET">
+      <option name="closed" value="true" />
+      <created>1764131986389</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1764131986389</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
