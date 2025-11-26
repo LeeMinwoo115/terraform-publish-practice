@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6c6631df-7a22-47a1-aff2-40d9b1a891e0" name="Changes" comment="fix: revise ci yml">
+    <list default="true" id="6c6631df-7a22-47a1-aff2-40d9b1a891e0" name="Changes" comment="fix: revise ci and Dockerfile">
       <change beforePath="$PROJECT_DIR$/.github/workflows/deploy.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/deploy.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +53,7 @@
       <updated>1764121769130</updated>
       <workItem from="1764121770308" duration="54000" />
       <workItem from="1764123048541" duration="542000" />
-      <workItem from="1764126303030" duration="2443000" />
+      <workItem from="1764126303030" duration="3315000" />
     </task>
     <task id="LOCAL-00001" summary="chore: add config and base code">
       <option name="closed" value="true" />
@@ -81,7 +79,15 @@
       <option name="project" value="LOCAL" />
       <updated>1764128456228</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="fix: revise ci and Dockerfile">
+      <option name="closed" value="true" />
+      <created>1764128798340</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1764128798340</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -90,6 +96,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="chore: add config and base code" />
     <MESSAGE value="fix: revise ci yml" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix: revise ci yml" />
+    <MESSAGE value="fix: revise ci and Dockerfile" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix: revise ci and Dockerfile" />
   </component>
 </project>
