@@ -9,7 +9,7 @@ on:
       - 'app/**'
 
 permissions:
-  contents: read        # 태그/릴리즈 등 소스 읽기
+  contents: write
   packages: write
 
 jobs:
