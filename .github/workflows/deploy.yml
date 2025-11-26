@@ -1,4 +1,6 @@
 name: deploy
+env:
+  IMAGE_NAME: app251126
 
 on:
   push:
@@ -6,7 +8,9 @@ on:
       - main
     paths:
       - '.github/workflows/**'
-      - 'app/**'
+      - 'src/**'
+      - "build.gradle.kts"
+      - "Dockerfile"
 
 permissions:
   contents: write
@@ -107,4 +111,4 @@ jobs:
             docker stop app1 2>/dev/null || true && \
             docker rm app1 2>/dev/null || true && \
             docker run -d --name app1 --network common -p 8080:8080 ghcr.io/${{ needs.buildImageAndPush.outputs.owner_lc }}/${{ needs.buildImageAndPush.outputs.image_name }}:latest && \
-            docker rmi $(docker images -f "dangling=true" -q) || true
+            docker image prune -f
