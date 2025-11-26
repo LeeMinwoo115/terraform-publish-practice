@@ -50,7 +50,7 @@ jobs:
         working-directory: app
         env:
           APPLICATION_SECRET: ${{ secrets.APPLICATION_SECRET }}
-        run: echo "$APPLICATION_SECRET" > src/resources/application-secret.yml
+        run: echo "$APPLICATION_SECRET" > src/main/resources/application-secret.yml
 
       - name: Docker Buildx 설치
         uses: docker/setup-buildx-action@v2
