@@ -8,6 +8,10 @@ on:
       - '.github/workflows/**'
       - 'app/**'
 
+permissions:
+  contents: read        # 태그/릴리즈 등 소스 읽기
+  packages: write
+
 jobs:
   makeTagAndRelease:
     runs-on: ubuntu-latest
