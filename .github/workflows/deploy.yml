@@ -18,11 +18,13 @@ jobs:
       tag_name: ${{ steps.create_tag.outputs.new_tag }}
     steps:
       - uses: actions/checkout@v4
+
       - name: Create Tag
         id: create_tag
         uses: mathieudutour/github-tag-action@v6.2
         with:
           github_token: ${{ secrets.SECRET_GITHUB_TOKEN }}
+
       - name: Create Release
         id: create_release
         uses: actions/create-release@v1
@@ -45,7 +47,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      # application-secret.yml 은 app/src/resources 아래에 생성
+      # application-secret.yml 은 app/src/main/resources 아래에 생성
       - name: application-secret.yml 생성
         working-directory: app
         env:
@@ -75,7 +77,8 @@ jobs:
       - name: 빌드 앤 푸시
         uses: docker/build-push-action@v3
         with:
-          context: ./app           # 🔥 Dockerfile 이 app/Dockerfile 이므로 context 를 app 으로
+          context: .
+          file: ./Dockerfile
           push: true
           tags: |
             ghcr.io/${{ steps.export_owner.outputs.owner_lc }}/${{ steps.export_image.outputs.image_name }}:${{ needs.makeTagAndRelease.outputs.tag_name }},
