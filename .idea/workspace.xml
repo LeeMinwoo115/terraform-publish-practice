@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6c6631df-7a22-47a1-aff2-40d9b1a891e0" name="Changes" comment="fix: AWS EC2 instance id 수정">
-      <change beforePath="$PROJECT_DIR$/.github/workflows/deploy.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/deploy.yml" afterDir="false" />
+    <list default="true" id="6c6631df-7a22-47a1-aff2-40d9b1a891e0" name="Changes" comment="chore: configure env image name">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/app/.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +53,7 @@
       <updated>1764121769130</updated>
       <workItem from="1764121770308" duration="54000" />
       <workItem from="1764123048541" duration="542000" />
-      <workItem from="1764126303030" duration="4635000" />
+      <workItem from="1764126303030" duration="5400000" />
     </task>
     <task id="LOCAL-00001" summary="chore: add config and base code">
       <option name="closed" value="true" />
@@ -121,7 +119,15 @@
       <option name="project" value="LOCAL" />
       <updated>1764132288545</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="chore: configure env image name">
+      <option name="closed" value="true" />
+      <created>1764132976484</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1764132976484</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -133,6 +139,7 @@
     <MESSAGE value="fix: revise ci and Dockerfile" />
     <MESSAGE value="fix: init GITHUB_SECRET" />
     <MESSAGE value="fix: AWS EC2 instance id 수정" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix: AWS EC2 instance id 수정" />
+    <MESSAGE value="chore: configure env image name" />
+    <option name="LAST_COMMIT_MESSAGE" value="chore: configure env image name" />
   </component>
 </project>
